@@ -1,0 +1,13 @@
+{
+    "latestVersion":  "1.1.2",
+    "notes":  "",
+    "notesUrl":  "https://github.com/nscarpinatodev/scorpious187s-chatedit/releases/latest",
+    "critical":  false,
+    "forceResetId":  "",
+    "announcement":  {
+                         "show":  false,
+                         "id":  "",
+                         "title":  "",
+                         "content":  ""
+                     }
+}
