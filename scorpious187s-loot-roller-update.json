@@ -1,13 +1,13 @@
 {
-    "latestVersion":  "1.2.1",
-    "notes":  "",
-    "notesUrl":  "https://github.com/nscarpinatodev/scorpious187s-loot-roller/releases/latest",
-    "critical":  false,
-    "forceResetId":  "",
-    "announcement":  {
-                         "show":  false,
-                         "id":  "",
-                         "title":  "",
-                         "content":  ""
-                     }
+  "latestVersion": "1.3.0",
+  "notes": "<p>Now uses the shared <strong>Scorpious187's Module Library</strong> (installed automatically as a dependency); Foundry minimum is now v13.</p><p>Loot Roller windows follow the family-wide Family Theme — theming works even without Quest Tracker or Customizable Shop installed. Currency handling moved to the shared library with unchanged behavior. Lottery flow, generators, and the plugin API are unchanged.</p>",
+  "notesUrl": "https://github.com/nscarpinatodev/scorpious187s-loot-roller/releases/tag/v1.3.0",
+  "critical": false,
+  "forceResetId": "",
+  "announcement": {
+    "show": false,
+    "id": "",
+    "title": "",
+    "content": ""
+  }
 }

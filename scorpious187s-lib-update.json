@@ -1,13 +1,13 @@
 {
-    "latestVersion":  "0.1.0",
-    "notes":  "",
-    "notesUrl":  "https://github.com/nscarpinatodev/scorpious187s-lib/releases/latest",
-    "critical":  false,
-    "forceResetId":  "",
-    "announcement":  {
-                         "show":  false,
-                         "id":  "",
-                         "title":  "",
-                         "content":  ""
-                     }
+  "latestVersion": "0.2.0",
+  "notes": "<p><strong>New:</strong> theming registrations accept <code>datasetKey</code> so consumer stylesheets keyed off <code>data-sqt-theme</code> / <code>data-scs-theme</code> keep working unchanged.</p><p>Required by Quest Tracker 1.2.0, Customizable Shop 1.2.0, and Loot Roller 1.3.0.</p>",
+  "notesUrl": "https://github.com/nscarpinatodev/scorpious187s-lib/releases/tag/v0.2.0",
+  "critical": false,
+  "forceResetId": "",
+  "announcement": {
+    "show": false,
+    "id": "",
+    "title": "",
+    "content": ""
+  }
 }

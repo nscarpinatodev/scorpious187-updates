@@ -1,13 +1,13 @@
 {
-    "latestVersion":  "1.1.1",
-    "notes":  "",
-    "notesUrl":  "https://github.com/nscarpinatodev/scorpious187s-customizable-shop/releases/latest",
-    "critical":  false,
-    "forceResetId":  "",
-    "announcement":  {
-                         "show":  false,
-                         "id":  "",
-                         "title":  "",
-                         "content":  ""
-                     }
+  "latestVersion": "1.2.0",
+  "notes": "<p>Theming now comes from the shared <strong>Scorpious187's Module Library</strong> (installed automatically as a dependency). Quest Tracker no longer \"locks\" the shop theme — everyone follows the same Family Theme setting, and the custom theme editor moved to the library.</p><p>Per-shop theme overrides still win for that shop's window. No changes to buying, selling, pricing, or the transaction log.</p>",
+  "notesUrl": "https://github.com/nscarpinatodev/scorpious187s-customizable-shop/releases/tag/v1.2.0",
+  "critical": false,
+  "forceResetId": "",
+  "announcement": {
+    "show": false,
+    "id": "",
+    "title": "",
+    "content": ""
+  }
 }
