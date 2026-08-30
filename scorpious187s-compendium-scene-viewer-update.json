@@ -1,0 +1,13 @@
+{
+  "latestVersion": "0.1.0",
+  "notes": "<p><strong>New module.</strong> Preview a Scene sitting in a compendium without importing it &mdash; and see the actual scene, not just its background image. Right-click any Scene in an open compendium and choose <em>Preview Scene</em>.</p><p>The window composites the entry the way the canvas would: every Level's background and foreground, tiles, tokens, drawings, notes, lights, ambient sounds, walls and regions, each on its own toggleable layer, in a pan/zoom viewport. Multi-level scenes get a level picker. GMs can show a preview to connected players; hidden placeables stay GM-only.</p><p>Requires Foundry VTT v14.</p>",
+  "notesUrl": "https://github.com/nscarpinatodev/scorpious187s-compendium-scene-viewer/releases/tag/v0.1.0",
+  "critical": false,
+  "forceResetId": "",
+  "announcement": {
+    "show": false,
+    "id": "",
+    "title": "",
+    "content": ""
+  }
+}
