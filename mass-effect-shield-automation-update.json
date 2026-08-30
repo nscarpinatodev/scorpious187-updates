@@ -1,0 +1,13 @@
+{
+  "latestVersion": "13.0.0",
+  "notes": "<p><strong>Mass Effect Shield System v13.0.0</strong></p><p>First public release. Requires Foundry VTT v13 and PF2e system v7.0.0+.</p><p><strong>Features</strong></p><ul><li><strong>Kinetic Shields</strong> — Equipment item that sets actor Temp HP on pickup. Shields recharge each turn in combat; depleted shields require the actor to Take Cover before recharging begins.</li><li><strong>Shield HP Mods</strong> (Tier 1–4) — Equipment mods that increase shield capacity by +10/+20/+40/+70 HP.</li><li><strong>Shield Regen Mods</strong> (Tier 1–4) — Equipment mods that multiply shield regen rate by ×1.5/×2.0/×2.5/×3.0.</li><li><strong>Biotic Barrier</strong> — Effect item with HP calculated from actor level (5 × ⌊level ÷ 2⌋, minimum 5). Absorbs damage before shields and HP. Displayed via PF2e badge counter on the effect icon.</li><li><strong>Activate Biotic Barrier</strong> — Feat (PC) and Action (NPC) items that apply the Biotic Barrier effect via PF2e's selfEffect system.</li><li><strong>Electricity weakness</strong> — Shock/electricity damage deals double damage to shields.</li><li><strong>Shield collapse</strong> — A single hit exceeding half shield max collapses the shield instantly; excess damage overflows to HP.</li><li><strong>Auto-sync</strong> — World item templates are automatically recreated when the module version changes.</li><li><strong>Combined chat messages</strong> — Shield and barrier status shown in a single card per turn.</li></ul>",
+  "notesUrl": "https://github.com/nscarpinatodev/mass-effect-shield-automation/releases/tag/v13.0.0",
+  "critical": false,
+  "forceResetId": "",
+  "announcement": {
+    "show": false,
+    "id": "",
+    "title": "",
+    "content": ""
+  }
+}

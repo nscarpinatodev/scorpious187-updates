@@ -1,13 +1,13 @@
 {
-    "latestVersion":  "14.2.0",
-    "notes":  "",
-    "notesUrl":  "https://github.com/nscarpinatodev/scorpious187s-parchment-map/releases/latest",
-    "critical":  false,
-    "forceResetId":  "",
-    "announcement":  {
-                         "show":  false,
-                         "id":  "",
-                         "title":  "",
-                         "content":  ""
-                     }
+  "latestVersion": "14.6.1",
+  "notes": "<p>The 'Show on in-game map' checkbox in the Tile configuration now appears only on the Appearance tab instead of on every tab (v13+ tabbed TileConfig).</p>",
+  "notesUrl": "https://github.com/nscarpinatodev/scorpious187s-parchment-map/releases/tag/v14.6.1",
+  "critical": false,
+  "forceResetId": "",
+  "announcement": {
+    "show": false,
+    "id": "",
+    "title": "",
+    "content": ""
+  }
 }

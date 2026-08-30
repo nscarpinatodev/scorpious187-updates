@@ -1,13 +1,13 @@
 {
-    "latestVersion":  "1.0.0",
-    "notes":  "",
-    "notesUrl":  "https://github.com/nscarpinatodev/scorpious187s-smooth-camera/releases/latest",
-    "critical":  false,
-    "forceResetId":  "",
-    "announcement":  {
-                         "show":  false,
-                         "id":  "",
-                         "title":  "",
-                         "content":  ""
-                     }
+  "latestVersion": "1.0.0",
+  "notes": "<p>First release of Smooth Camera for Foundry VTT.</p><p>Implements smooth camera panning and zooming. Rebuilt for Foundry V13/V14 (PIXI v8) compatibility.</p><p><strong>Compatibility:</strong> minimum 13.351, verified 14.361</p>",
+  "notesUrl": "https://github.com/nscarpinatodev/scorpious187s-smooth-camera/releases/tag/v1.0.0",
+  "critical": false,
+  "forceResetId": "",
+  "announcement": {
+    "show": false,
+    "id": "",
+    "title": "",
+    "content": ""
+  }
 }

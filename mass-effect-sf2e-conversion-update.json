@@ -1,0 +1,13 @@
+{
+  "latestVersion": "2.1.0-rc.1",
+  "notes": "<p>Release candidate for 2.1.0. <strong>Foundry v14 required</strong> (v13 support dropped).</p><p><strong>Changes</strong></p><ul><li><strong>Journal Viewer:</strong> added a <strong>Back</strong> button; centred the button layout.</li><li><strong>Ranged NPC/mech strikes:</strong> fixed so ranges display on the sheet in v14 (encoded as <em>range-increment</em> traits; 65 strikes).</li><li><strong>NPC gear:</strong> 137 weapons/armor/shields now link to their compendium items.</li><li><strong>Mech abilities:</strong> Atlas / YMIR / Rampart special attacks now have clickable damage &amp; save rolls.</li><li><strong>Unarmed strikes:</strong> the four weaponless NPCs now have a Fist attack.</li><li><strong>Fix:</strong> registered the missing SF2e Items compendium.</li></ul>",
+  "notesUrl": "https://github.com/nscarpinatodev/mass-effect-sf2e-conversion/releases/tag/v2.1.0-rc.1",
+  "critical": false,
+  "forceResetId": "",
+  "announcement": {
+    "show": false,
+    "id": "",
+    "title": "",
+    "content": ""
+  }
+}

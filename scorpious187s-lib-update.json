@@ -1,6 +1,6 @@
 {
   "latestVersion": "0.3.0",
-  "notes": "<p><strong>New: Theme Preview</strong> — a settings menu showing every theme as a card in its own colors. Click to live-preview across all Scorpious187 windows, then Save &amp; Apply to set the Family Theme.</p><p><strong>Fixed:</strong> the Custom Theme Editor failed to open (<em>Template part \"editor\" must render a single HTML element</em>).</p>",
+  "notes": "<p><strong>New</strong></p><ul><li><strong>Theme Preview</strong> settings menu: every theme rendered as a card in its own colors, grouped by genre. Clicking a card live-previews it across all open Scorpious187 windows; <strong>Save &amp; Apply</strong> sets it as the Family Theme, Cancel (or closing) reverts. Also reachable via <em>api.theming.openPicker()</em>.</li></ul><p><strong>Fixed</strong> (also shipped in 0.2.1)</p><ul><li>The Custom Theme Editor failed to open with <em>Template part &quot;editor&quot; must render a single HTML element</em>.</li></ul>",
   "notesUrl": "https://github.com/nscarpinatodev/scorpious187s-lib/releases/tag/v0.3.0",
   "critical": false,
   "forceResetId": "",

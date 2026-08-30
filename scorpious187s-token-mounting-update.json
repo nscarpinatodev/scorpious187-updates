@@ -1,0 +1,13 @@
+{
+  "latestVersion": "0.3.0",
+  "notes": "<p>Built on Foundry v13's token movement system; verified on <strong>v14</strong>.</p><p><strong>Breaking</strong></p><p><strong>Tokens are no longer mountable by default.</strong> Mounts are opt-in. Detection marks newly placed tokens by name, but does not run retroactively — anything already on a scene must be marked in <strong>Token Config → Identity → Mounting</strong>.</p><p><strong>Movement</strong></p><p>Riders now follow the mount's <em>actual route</em>, not a straight line to its endpoint. Carrying moved from <em>updateToken</em> to <em>moveToken</em>: v14 collapses a whole route into a single update, which took the previous approximation with it.</p><ul><li>Only user-placed waypoints are replayed. Core's generated <em>intermediate</em> steps, replayed as real waypoints, made riders crawl the grid square by square while the mount glided over the corners actually drawn.</li><li><em>autoRotate</em> is passed explicitly. Core resolves it from the movement <em>method</em> and defaults api moves to <em>false</em>, so carried riders never turned with their mount.</li></ul><p><strong>New</strong></p><ul><li><strong>Steering</strong> — drag the rider in seat 0 and the mount follows, tracing the route you drew. Passengers are held in place.</li><li><strong>Drag to mount</strong> — drop one token onto another to mount it. World setting with a per-token override.</li><li><strong>Per-token options</strong> — rider capacity, can be mounted, can ride, drag-target and ownership-grant overrides, each falling back to its world setting.</li><li><strong>Mount recognition</strong> — tokens are marked mountable by name as they are placed. The list is editable; matching is whole-word, so <em>horse</em> does not fire on <em>Horseshoe Crab</em>.</li></ul><p><em>Full details in the release notes.</em></p>",
+  "notesUrl": "https://github.com/nscarpinatodev/scorpious187s-token-mounting/releases/tag/v0.3.0",
+  "critical": false,
+  "forceResetId": "",
+  "announcement": {
+    "show": false,
+    "id": "",
+    "title": "",
+    "content": ""
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "latestVersion": "0.3.2",
+  "notes": "<p>Per-scene combat distance scaling.</p>",
+  "notesUrl": "https://github.com/nscarpinatodev/scorpious187s-battle-scene-scaling/releases",
+  "critical": false,
+  "forceResetId": "",
+  "announcement": {
+    "show": false,
+    "id": "",
+    "title": "",
+    "content": ""
+  }
+}

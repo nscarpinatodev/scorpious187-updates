@@ -1,13 +1,13 @@
 {
-    "latestVersion":  "1.1.2",
-    "notes":  "",
-    "notesUrl":  "https://github.com/nscarpinatodev/scorpious187s-chatedit/releases/latest",
-    "critical":  false,
-    "forceResetId":  "",
-    "announcement":  {
-                         "show":  false,
-                         "id":  "",
-                         "title":  "",
-                         "content":  ""
-                     }
+  "latestVersion": "1.1.2",
+  "notes": "<p>Stable release rolling up the 1.1.2 release candidates.</p><p><strong>Changes since 1.1.1</strong></p><ul><li>Typing indicator now lives at the <strong>bottom of the chat sidebar</strong> (below the input), CGMP-style, with a collapsing slide transition and jumping dots.</li><li>Fixed duplicate typing indicators appearing when the chat panel re-parents (docked ↔ popped-out).</li></ul>",
+  "notesUrl": "https://github.com/nscarpinatodev/scorpious187s-chatedit/releases/tag/v1.1.2",
+  "critical": false,
+  "forceResetId": "",
+  "announcement": {
+    "show": false,
+    "id": "",
+    "title": "",
+    "content": ""
+  }
 }

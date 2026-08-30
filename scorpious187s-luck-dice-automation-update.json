@@ -1,13 +1,13 @@
 {
-    "latestVersion":  "1.1.0",
-    "notes":  "",
-    "notesUrl":  "https://github.com/nscarpinatodev/scorpious187s-luck-dice-automation/releases/latest",
-    "critical":  false,
-    "forceResetId":  "",
-    "announcement":  {
-                         "show":  false,
-                         "id":  "",
-                         "title":  "",
-                         "content":  ""
-                     }
+  "latestVersion": "1.1.1",
+  "notes": "<p><strong>Fixed</strong></p><ul><li><strong>Roll configuration dialog now shows for players.</strong> When the GM sent a check/save/skill request from the in-module roll request menu, the player's dnd5e roll dialog (advantage / situational bonus) was being skipped. The module was using the legacy dnd5e roll signature, whose compatibility path fast-forwarded the dialog. It now uses the modern dnd5e 5.x roll API and forces the dialog to appear, with the GM's requested advantage/disadvantage pre-selected.</li></ul>",
+  "notesUrl": "https://github.com/nscarpinatodev/scorpious187s-luck-dice-automation/releases/tag/1.1.1",
+  "critical": false,
+  "forceResetId": "",
+  "announcement": {
+    "show": false,
+    "id": "",
+    "title": "",
+    "content": ""
+  }
 }

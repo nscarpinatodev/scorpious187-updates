@@ -1,13 +1,13 @@
 {
-    "latestVersion":  "14.1.0",
-    "notes":  "",
-    "notesUrl":  "https://github.com/nscarpinatodev/scorpious187-agnostic-token-damage-effects/releases/latest",
-    "critical":  false,
-    "forceResetId":  "",
-    "announcement":  {
-                         "show":  false,
-                         "id":  "",
-                         "title":  "",
-                         "content":  ""
-                     }
+  "latestVersion": "14.1.0",
+  "notes": "<p>Adds automatic HP-preset configuration.</p><ul><li>On first load in a world, the module detects the game system (game.system.id) and applies the matching HP preset automatically, so it no longer always defaults to D&amp;D 5e. Direct system-id matches work out of the box; explicit aliases are included for Pathfinder 1e (pf1) and Tales of the Valiant / Black Flag (black-flag). A deliberate manual preset choice is preserved.</li></ul>",
+  "notesUrl": "https://github.com/nscarpinatodev/scorpious187-agnostic-token-damage-effects/releases/tag/v14.1.0",
+  "critical": false,
+  "forceResetId": "",
+  "announcement": {
+    "show": false,
+    "id": "",
+    "title": "",
+    "content": ""
+  }
 }

@@ -1,0 +1,13 @@
+{
+  "latestVersion": "0.1.0",
+  "notes": "<p>Shared token art library for the Scorpious187 module family.</p>",
+  "notesUrl": "https://github.com/nscarpinatodev/scorpious187s-token-library/releases",
+  "critical": false,
+  "forceResetId": "",
+  "announcement": {
+    "show": false,
+    "id": "",
+    "title": "",
+    "content": ""
+  }
+}

@@ -1,6 +1,6 @@
 {
   "latestVersion": "1.2.0",
-  "notes": "<p>Theming now comes from the shared <strong>Scorpious187's Module Library</strong> (installed automatically as a dependency): one Family Theme setting restyles Quest Tracker, Customizable Shop, and Loot Roller together. Your previously selected theme carries over automatically.</p><p>No changes to quests, rewards, or notifications.</p>",
+  "notes": "<p><strong>Requires the new Scorpious187's Module Library (installed automatically as a dependency).</strong></p><ul><li>Theming now comes from the shared library: one <strong>Family Theme</strong> setting restyles Quest Tracker, Customizable Shop, and Loot Roller together. Your previously selected theme carries over automatically.</li><li>The System Config theme tab keeps working as before and now updates the family-wide theme.</li><li>No changes to quests, rewards, or notifications.</li></ul>",
   "notesUrl": "https://github.com/nscarpinatodev/scorpious187s-quest-tracker/releases/tag/v1.2.0",
   "critical": false,
   "forceResetId": "",
