@@ -36,9 +36,12 @@ jobs:
         env:
           # Reads public releases across the account; no extra scope needed.
           GITHUB_TOKEN: ${{ secrets.SYNC_TOKEN || secrets.GITHUB_TOKEN }}
+          # Via env, never interpolated into the script: a dispatch input is
+          # untrusted text.
+          ONLY: ${{ inputs.only }}
         run: |
-          if [ -n "${{ inputs.only }}" ]; then
-            node scripts/sync.mjs --only "${{ inputs.only }}"
+          if [ -n "$ONLY" ]; then
+            node scripts/sync.mjs --only "$ONLY"
           else
             node scripts/sync.mjs
           fi
