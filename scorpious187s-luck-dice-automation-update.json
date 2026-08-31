@@ -1,7 +1,7 @@
 {
-  "latestVersion": "1.1.1",
-  "notes": "<p><strong>Fixed</strong></p><ul><li><strong>Roll configuration dialog now shows for players.</strong> When the GM sent a check/save/skill request from the in-module roll request menu, the player's dnd5e roll dialog (advantage / situational bonus) was being skipped. The module was using the legacy dnd5e roll signature, whose compatibility path fast-forwarded the dialog. It now uses the modern dnd5e 5.x roll API and forces the dialog to appear, with the GM's requested advantage/disadvantage pre-selected.</li></ul>",
-  "notesUrl": "https://github.com/nscarpinatodev/scorpious187s-luck-dice-automation/releases/tag/1.1.1",
+  "latestVersion": "1.2.0",
+  "notes": "<p><strong>Now requires Scorpious187's Module Library</strong>, installed automatically as a dependency.</p><p>The library hosts the family update notifier, so Luck Dice Automation can tell you about its own releases. Without it, this module's entry in the shared update feed was read by nothing.</p><p>No changes to luck dice, roll requests, or the midi-qol integration.</p>",
+  "notesUrl": "https://github.com/nscarpinatodev/scorpious187s-luck-dice-automation/releases/tag/v1.2.0",
   "critical": false,
   "forceResetId": "",
   "announcement": {
