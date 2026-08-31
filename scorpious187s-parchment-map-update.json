@@ -1,7 +1,7 @@
 {
-  "latestVersion": "14.6.1",
-  "notes": "<p>The 'Show on in-game map' checkbox in the Tile configuration now appears only on the Appearance tab instead of on every tab (v13+ tabbed TileConfig).</p>",
-  "notesUrl": "https://github.com/nscarpinatodev/scorpious187s-parchment-map/releases/tag/v14.6.1",
+  "latestVersion": "14.7.0",
+  "notes": "<p><strong>New: canvas render engine (experimental).</strong> The in-game map can now be placed as a real Foundry Tile — it shows in the Placeables list, sorts and z-orders under tokens, and works cross-browser.</p><p>It composites the token-centred scene, frame plates, marker and the per-theme treatment (parchment and sci-fi) to match the window and overlay look, with portrait/landscape rotation. Exposed via the Tiles-toolbar buttons and the module API.</p><p><strong>Also in this release</strong></p><ul><li>The <em>Show on in-game map</em> checkbox in the Tile configuration appears only on the Appearance tab, instead of on every tab (v13+ tabbed TileConfig).</li><li>Fixed a Foundry v14 <em>Scene#background</em> deprecation warning.</li><li><strong>Now requires Scorpious187's Module Library</strong>, installed automatically as a dependency, which hosts the family update notifier.</li></ul>",
+  "notesUrl": "https://github.com/nscarpinatodev/scorpious187s-parchment-map/releases/tag/v14.7.0",
   "critical": false,
   "forceResetId": "",
   "announcement": {
