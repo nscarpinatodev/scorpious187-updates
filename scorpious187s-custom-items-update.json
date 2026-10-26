@@ -1,0 +1,13 @@
+{
+  "latestVersion": "1.0.0",
+  "notes": "<p><strong>First release.</strong> Homebrew magic items with their own automation for dnd5e 6 on Foundry VTT 14, built for dnd5e's native rolls with Scorpious187's Luck Dice Automation.</p><ul><li><strong>Kilian's Eldritch Rifle</strong> (in the <em>Scorpious187's Custom Items</em> compendium). Channel Spell opens a picker of the wielder's prepared ranged spell attacks. The chosen spell is cast at <strong>double range</strong> and <strong>+2 to hit</strong>, so Eldritch Blast reaches 240 ft.</li><li>Rolls made later from the card's Attack and Damage buttons use the channeled spell too. Slots, concentration and uses are spent from the real spell.</li><li><strong>Luck Dice Automation:</strong> beams and rays, target confirmation, Luck Dice on a miss, and range checks all use the channeled range and bonus.</li><li><strong>Range check</strong> world setting: off, ask, or refuse when targets are beyond the channeled range. With Luck Dice's attack automation on, out-of-range targets stop the cast before a slot is spent.</li><li><strong>Scorpious187's Module Library</strong> is installed automatically as a dependency. It provides family logging and update notices.</li></ul>",
+  "notesUrl": "https://github.com/nscarpinatodev/scorpious187s-custom-items/releases/tag/v1.0.0",
+  "critical": false,
+  "forceResetId": "",
+  "announcement": {
+    "show": false,
+    "id": "",
+    "title": "",
+    "content": ""
+  }
+}
