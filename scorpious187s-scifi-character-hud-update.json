@@ -1,7 +1,7 @@
 {
-  "latestVersion": "1.0.2",
-  "notes": "<ul><li>PF2e HUD's party portraits keep their width. Its persistent panel takes its width from the macro bar along its foot; with the bar on the device, the panel now keeps the bar's place empty instead of closing up, so the portraits no longer narrow.</li></ul>",
-  "notesUrl": "https://github.com/nscarpinatodev/scorpious187s-scifi-character-hud/releases/tag/v1.0.2",
+  "latestVersion": "1.1.0",
+  "notes": "<ul><li>The GM's projection follows the token selected on the canvas, a character's or an NPC's, and stays on it until another is selected. A player's is only ever their own character.</li><li>NPCs on the projection, as their own sheets have them. PF2e and SF2e: their rarity and traits under their name, the NPC sheet's tabs with its public and private notes, only the skills they have, and no experience, hero points or rest. D&amp;D 5e: creature type and challenge rating, hit dice from the hit point formula, and legendary actions and resistance as tracks.</li></ul>",
+  "notesUrl": "https://github.com/nscarpinatodev/scorpious187s-scifi-character-hud/releases/tag/v1.1.0",
   "critical": false,
   "forceResetId": "",
   "announcement": {
