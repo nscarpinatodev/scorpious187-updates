@@ -1,0 +1,13 @@
+{
+  "latestVersion": "1.0.0",
+  "notes": "<p>The first release. The Foundry interface becomes the device your character wears, and its switch raises the character sheet as a projection over the canvas. Every roll and button is still the game system's own.</p><p><strong>Highlights</strong></p><ul><li><strong>Seven devices:</strong> the omni-tool, wrist computer, EVA (GDI and Nod) and TRON for science fiction; the Adventurer's Journal and the Runic Vambrace for fantasy.</li><li><strong>Eleven looks</strong> over them, from a flickering hologram and an old green terminal to a stone Runeforge and a Journal bound in green leather.</li><li><strong>The projection:</strong> vitals, defenses, effects, a readout and tabbed pages, with hit points, experience, conditions, spells, inventory and the biography changed in place.</li><li><strong>PF2e, SF2e and D&amp;D 5e,</strong> each through the system's own calls.</li><li><strong>The whole interface in the device's colors:</strong> sidebar, chat, a scene bar with previews, controls, the player list, and an optional carousel turn order.</li><li><strong>A Mass Effect dossier</strong> with the conversion's shields and Paragon/Renegade.</li></ul><p><strong>Everything in 1.0.0</strong></p><p>Rebuilt as a UI theme. The HUD is no longer a character sheet; the interface itself is the device, and the character sheet is a projection it raises over the canvas.</p><ul><li>The device at the foot of the screen, with Foundry's own macro bar mounted on it: the omni-tool's forearm and emitter band, or a docked bar with a power key for the others.</li><li>The projection: identity, vitals, defenses, effects, readout and a tabbed main panel, built to the approved mock-up for each device and scaled to the room the interface leaves.</li><li>PF2e, SF2e and D&amp;D 5e, through adapters that hand every button to the system's own API.</li></ul><p><em>Full details in the release notes.</em></p>",
+  "notesUrl": "https://github.com/nscarpinatodev/scorpious187s-scifi-character-hud/releases/tag/v1.0.0",
+  "critical": false,
+  "forceResetId": "",
+  "announcement": {
+    "show": false,
+    "id": "",
+    "title": "",
+    "content": ""
+  }
+}
