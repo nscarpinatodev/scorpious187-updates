@@ -1,7 +1,7 @@
 {
-  "latestVersion": "1.6.1",
-  "notes": "<p><strong>Fixed</strong></p><ul><li>Opening the Pip-Boy for the first time when it is the character's sheet (for example from the Sci-Fi Character HUD) no longer throws an error. The window is now brought to the front only once it has been drawn, so <em>PipBoyApp.open()</em> returns it and the caller can close it again.</li></ul>",
-  "notesUrl": "https://github.com/nscarpinatodev/scorpious187s-pip-boy/releases/tag/v1.6.1",
+  "latestVersion": "1.6.2",
+  "notes": "<p><strong>Fixed</strong></p><ul><li><strong>Other players' actions no longer disturb an open Pip-Boy.</strong><ul><li>The lower readout keeps its place in a long description when the Pip-Boy redraws, including when the layout or the Pip-Boy Size changes.</li><li>An open edit fly-out or right-click item menu stays open, with whatever you've typed, when someone else moves a token or changes the character. The Pip-Boy catches up as soon as you close it.</li><li>Redraws that arrive together are merged: Foundry and the Pip-Boy both redrew for every change to the character or its items, and a token move counted twice. Token changes that only touch flags no longer redraw the MAP at all, so a GM loading a world with Token Magic FX doesn't redraw every player's Pip-Boy once per token.</li></ul></li></ul>",
+  "notesUrl": "https://github.com/nscarpinatodev/scorpious187s-pip-boy/releases/tag/v1.6.2",
   "critical": false,
   "forceResetId": "",
   "announcement": {
