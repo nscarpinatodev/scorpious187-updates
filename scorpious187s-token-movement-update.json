@@ -1,0 +1,13 @@
+{
+  "latestVersion": "0.1.0",
+  "notes": "<p>First version.</p><ul><li>Lift animation for moving tokens: hop from space to space, or lift, glide and set down. Per-user, with adjustable height and zoom.</li><li>Walk speed setting: how fast tokens travel, in spaces per second, for the whole world.</li><li>Step sounds on each landing that match what the token wears: unarmored, light, medium and heavy armor each have their own set of four recorded footsteps. The armor is read from the actor in D&amp;D 5e, Pathfinder 2e and Starfinder 2e; a GM can set it for any token in Token Configuration (Identity tab, Step sound), and other packages can supply it through the <em>getArmorClass</em> hook. Per user, Step sound picks between matching the armor, one set for everyone, and the original synthesised tap; a custom file for the world still overrides them all. The recordings are public-domain (CC0) work by HaelDB, Kenney and artisticdude, credited in <em>assets/sounds/CREDITS.md</em>.</li><li>Big creatures sound big: steps from a token two or more spaces across are played lower, with more bass, and ring in the room after they land. A little for Large, more for Huge, most for Gargantuan. It goes by the token's footprint, so it works in any system and with any step sound, the world's custom file included. Per user, on by default.</li><li>Pathfinding: when the straight route is blocked, the cheapest route round is planned, using whatever the game system counts as blocking. When it gets there but crosses something that costs extra (difficult terrain; in D&amp;D 5e the space of a creature the token can pass through), a cheaper route is taken if there is one, so the cost on the ruler matches the range overlay. Per-user switch. Routes are found within the same frame, so the ruler and the range overlay never wait on a search.</li></ul><p><em>Full details in the release notes.</em></p>",
+  "notesUrl": "https://github.com/nscarpinatodev/scorpious187s-token-movement/releases/tag/v0.1.0",
+  "critical": false,
+  "forceResetId": "",
+  "announcement": {
+    "show": false,
+    "id": "",
+    "title": "",
+    "content": ""
+  }
+}
