@@ -1,7 +1,7 @@
 {
-  "latestVersion": "0.1.2",
-  "notes": "<ul><li>The range no longer changes colour under a token that is dragged back towards where it started. It was being measured again from wherever the pointer was, as though the route so far were already spent, so after dragging out a full move the spaces back towards the start were painted as a dash although dragging there is a short move. It is now measured from the last waypoint dropped, or from the start when there is none: a plain drag shows the same range from pick-up to drop, and the range moves on and dims what is out of reach only when a waypoint fixes part of the route.</li><li>A plain drag no longer searches the range again on every space the pointer crosses.</li></ul>",
-  "notesUrl": "https://github.com/nscarpinatodev/scorpious187s-token-movement/releases/tag/v0.1.2",
+  "latestVersion": "0.2.0",
+  "notes": "<p>Teleport, for the GM.</p><ul><li>A GM-only key, J by default, puts the selected tokens down where the pointer is, with no drag. It is for setting a scene: make a token ready out in the padding round the map, hidden or however it needs to be, then put it where it belongs. Nothing is walked, so there is no route, ruler, trail, hop or footstep, walls and terrain are not in the way, and no movement is spent.</li><li>A group lands as a group. The middle of the selection goes to the pointer and every token keeps its place round it, on a space of its own. A group put down at the edge of the canvas is slid back onto it whole.</li><li>Hold Shift to land off the grid. Ctrl+Z takes a teleport back. Locked tokens stay where they are. With Token Mounting, teleporting a rider teleports its mount and everyone on it.</li><li>Players cannot bind or trigger the key, and nobody's view moves.</li><li>The API gains <em>teleportTokens</em>.</li><li>Checked on Foundry 14.371, which needed no changes here. The fix it brings for hidden tokens showing their measured movement to players covers this module's trail as well.</li></ul>",
+  "notesUrl": "https://github.com/nscarpinatodev/scorpious187s-token-movement/releases/tag/v0.2.0",
   "critical": false,
   "forceResetId": "",
   "announcement": {
