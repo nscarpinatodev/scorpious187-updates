@@ -1,0 +1,13 @@
+{
+  "latestVersion": "0.1.0",
+  "notes": "<p>First version: a turn-based trail-bike arena game for Foundry v14, written with Starfinder 2e in mind.</p><ul><li>Every rider locks in a steer, a gear and an optional boost, then all bikes run at once.</li><li>Arena builder with five layouts, teams or everyone for themselves, and autopilot riders at three difficulties.</li><li>Piloting checks each round for spare spaces, and at each crash to swerve.</li></ul>",
+  "notesUrl": "https://github.com/nscarpinatodev/scorpious187s-gridrunners/releases",
+  "critical": false,
+  "forceResetId": "",
+  "announcement": {
+    "show": false,
+    "id": "",
+    "title": "",
+    "content": ""
+  }
+}
