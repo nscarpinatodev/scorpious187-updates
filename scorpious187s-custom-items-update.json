@@ -1,7 +1,7 @@
 {
-  "latestVersion": "1.0.1",
-  "notes": "<ul><li><strong>Kilian's Eldritch Rifle:</strong> a spell's range increases from enchantments (Eldritch Spear's <em>Increase Range</em>) were counted twice through the rifle. The rifle now doubles the spell's whole range once, increases included: a 5th-level warlock's Eldritch Blast with Eldritch Spear reaches (120 + 150) × 2 = 540 ft. With Luck Dice Automation 2.5.0 or later, the range it adds itself (Distant Spell, Spell Sniper, its own Eldritch Spear) is doubled by the rifle too.</li></ul>",
-  "notesUrl": "https://github.com/nscarpinatodev/scorpious187s-custom-items/releases/tag/v1.0.1",
+  "latestVersion": "1.0.2",
+  "notes": "<ul><li><strong>Compatibility:</strong> marked as verified for Foundry VTT 14.371 and dnd5e 6.1.2. Nothing in either update changes how the items work, so there are no code changes in this release.</li></ul>",
+  "notesUrl": "https://github.com/nscarpinatodev/scorpious187s-custom-items/releases/tag/v1.0.2",
   "critical": false,
   "forceResetId": "",
   "announcement": {
